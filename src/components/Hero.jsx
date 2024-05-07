@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import girl from "../assets/girl.png";
 import rocket from "../assets/rocket.png";
+import FAQ from "./FAQ";
 const Hero = () => {
   return (
     <>
@@ -86,6 +87,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
+      <FAQ/>
     </>
   );
 };
