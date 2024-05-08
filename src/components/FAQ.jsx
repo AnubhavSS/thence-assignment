@@ -15,7 +15,7 @@ const FAQ = () => {
         </div>
 
         {/* Right Section */}
-        <div className="mx-auto w-[581px] h-[538px] mt-24">
+        <div className="mx-auto w-full md:w-[581px] md:h-[538px] mt-24">
     <div className="divide-y divide-gray-300 ">
         <details className="py-6 group" open>
             <summary

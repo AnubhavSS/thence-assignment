@@ -23,7 +23,7 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateEmail(details.email)) {
-      navigate("/");
+      navigate("/success");
     } else {
       setemailValid(true);
     }
@@ -73,9 +73,10 @@ const Signup = () => {
               
                 {/* Email */}
               <input
-                onChange={(e) =>
-                  setdetails({ ...details, email: e.target.value })
-                }
+                onChange={(e) =>{
+                  setdetails({ ...details, email: e.target.value });
+                  setemailValid(false)
+                }}
                 placeholder="Enter your email"
                 id="email"
                 type="text"
