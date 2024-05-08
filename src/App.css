@@ -199,3 +199,45 @@ color: #1C1C1C;
     text-decoration: underline;
     cursor: pointer;
 }
+
+.textInput{
+    width: 417px;
+    height: 75px;
+    border-radius: 64px;
+    padding: 24px;
+    background-color: #EFEFEF;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color:#827A7A ;
+    align-items: center;
+}
+
+.closeBtn{
+    width: 64px;
+    height: 64px;
+    border-radius: 40px;
+    padding: 16px;
+    border: 1px solid #CACACA;
+}
+
+.closeBtn:hover{
+    scale: 1.1;
+    transition: 1s ease-in;
+}
+
+.disabled{
+    background-color: #4E4E4E;
+}
+
+.error{
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color:#FF0808 ;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+}

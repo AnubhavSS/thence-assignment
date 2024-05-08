@@ -16,8 +16,8 @@ const FAQ = () => {
 
         {/* Right Section */}
         <div className="mx-auto w-[581px] h-[538px] mt-24">
-    <div className="divide-y divide-gray-300">
-        <details className="py-6" open>
+    <div className="divide-y divide-gray-300 ">
+        <details className="py-6 group" open>
             <summary
                 className="accordHead">
                Do you offer freelancers?
@@ -34,7 +34,7 @@ const FAQ = () => {
             </summary>
             <div className="accordText">If unhappy with a project, communicate with the freelancer, allow for revisions, and refer to the agreement. Escalate to platform support if needed, considering mediation. Review policies, seek collaborative solutions for resolution.</div>
         </details>
-        <details className="py-6">
+        <details className="py-6 group">
             <summary
                 className="accordHead">
                What’s the guarantee that I will be satisfied with the hired talent?
@@ -51,7 +51,7 @@ const FAQ = () => {
             </summary>
             <div className="accordText">This is the second item's accordion body.</div>
         </details>
-        <details className="py-6">
+        <details className="py-6 group">
             <summary
                 className="accordHead">
              Can I hire multiple talents at once?
@@ -68,7 +68,7 @@ const FAQ = () => {
             </summary>
             <div className="accordText">If unhappy with a project, communicate with the freelancer, allow for revisions, and refer to the agreement. Escalate to platform support if needed, considering mediation. Review policies, seek collaborative solutions for resolution.</div>
         </details>
-        <details className="py-6">
+        <details className="py-6 group">
             <summary
                 className="accordHead">
              Why should I not go to an agency directly?
@@ -85,7 +85,7 @@ const FAQ = () => {
             </summary>
             <div className="accordText">If unhappy with a project, communicate with the freelancer, allow for revisions, and refer to the agreement. Escalate to platform support if needed, considering mediation. Review policies, seek collaborative solutions for resolution.</div>
         </details>
-        <details className="py-6">
+        <details className="py-6 group">
             <summary
                 className="accordHead">
          Who can help me pick a right skillset and duration for me?

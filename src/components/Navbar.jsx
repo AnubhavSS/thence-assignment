@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/Brunel.png";
 import "../App.css";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header className="head">
@@ -9,7 +10,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" width={121} height={31} />
         </div>
         <div className=" w-[420px] h-[77px] flex gap-4">
-          <button className="btn-1">Get Projects</button>
+          <Link to={'/signup'}><button className="btn-1">Get Projects</button></Link>
           <button className="btn-2">Onboard Talent</button>
         </div>
       </div>
